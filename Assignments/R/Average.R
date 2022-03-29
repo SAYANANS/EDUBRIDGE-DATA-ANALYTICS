@@ -1,0 +1,12 @@
+x<-readline(prompt="enter first num") 
+y<-readline(prompt="enter second num")
+z<-readline(prompt="enter third num")
+z1<-readline(prompt="enter fourth num")
+z2<-readline(prompt="enter fifth num")
+x<-as.integer(x)
+y<-as.integer(y)
+z<-as.integer(z)
+z1<-as.integer(z1)
+z2<-as.integer(z2)
+res<-(x+y+z+z1+z2)/5
+print(paste("average=",res))
