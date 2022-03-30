@@ -1,0 +1,6 @@
+num1<-readline(prompt="enter first num")
+num2<-readline(prompt="enter second num")
+num1<-as.integer(num1)
+num2<-as.integer(num2)
+res<-(num1^num2)
+print(paste("Result is",res))
